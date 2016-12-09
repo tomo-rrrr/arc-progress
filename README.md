@@ -29,4 +29,4 @@ $('#progress').arcProgress({
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 ```
-- 去掉之后会影响一些盒子模型，比如heith可能就不包含padding了，所以在写样式的时候特别注意
+- 去掉之后会影响一些盒子模型，比如height可能就不包含padding了，所以在写样式的时候特别注意
