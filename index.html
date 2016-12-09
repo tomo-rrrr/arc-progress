@@ -37,11 +37,11 @@
 $('.progress').each(function(){
     var my = $(this);
     var percent = my.data('no');
-    my.progress({
-        percent:percent,
-        radius:20,
-        strokeWidth:10,
-        color:'#982312',
+    my.arcProgress({
+        percent: percent,
+        radius:50,
+        strokeWidth:3,
+        stroke:'green',
         mode:'svg'
     });
 });

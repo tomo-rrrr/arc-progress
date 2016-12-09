@@ -1,0 +1,32 @@
+{
+    "name": "arc-progress",
+    "version": "1.0.0",
+    "description": "arc progerss",
+    "main": "arc-progress.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kyo4311/arc-progress.git"
+    },
+    "keywords": [
+        "arc",
+        "progerss",
+        "jquery",
+        "javascript"
+    ],
+    "author": "guosheng",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kyo4311/arc-progress/issues"
+    },
+    "devDependencies": {
+        "gulp": "~3.9.1",
+        "gulp-jshint": "2.0.4",
+        "gulp-uglify": "2.0.0",
+        "pump": "1.0.1"
+
+    },
+    "homepage": "https://github.com/kyo4311/arc-progress#readme"
+}
