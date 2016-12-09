@@ -30,3 +30,10 @@ $('#progress').arcProgress({
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 ```
 - 去掉之后会影响一些盒子模型，比如height可能就不包含padding了，所以在写样式的时候特别注意
+
+#参考链接
+[VML相关介绍](https://msdn.microsoft.com/en-us/library/bb263898(v=vs.85).aspx)
+[SVG相关介绍](https://developer.mozilla.org/en-US/docs/Web/SVG)
+[svg path](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path)
+[Canvas相关介绍](https://developer.mozilla.org/en-US/docs/Glossary/Canvas)
+[Drawing shapes with canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
