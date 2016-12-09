@@ -1,0 +1,6 @@
+{
+  "name": "Arc-progress",
+  "tagline": "一个支持IE8的环形进度条。",
+  "body": "# arc-progress\r\n一个支持IE8的环形进度条jQuery插件。\r\n\r\n# 特性\r\n- 支持IE8，低版本浏览器采用vml实现\r\n- 高版本浏览器，可选择svg或是canvas\r\n\r\n# 使用\r\n- 确保引入jQuery\r\n- 引入arc-progress\r\n```html\r\n<script type=text/javascript src=\"arc-progress.js\"></script>\r\n```\r\n- 使用插件\r\n```html\r\n<div class=\"progress\" id=\"progress\"></div>\r\n```\r\n```js\r\n$('#progress').arcProgress({\r\n    percent: 54, //0-100得分\r\n    radius:50, //半径px\r\n    strokeWidth:3, //线的粗细\r\n    stroke:'green', //线的颜色\r\n    mode:'svg' //可选择svg或canvas\r\n});\r\n```\r\n# 注意事项\r\n- 如果要兼容IE8的同学，请注意浏览器的渲染方式，这个要去掉\r\n```html\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n```\r\n- 去掉之后会影响一些盒子模型，比如heith可能就不包含padding了，所以在写样式的时候特别注意",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
