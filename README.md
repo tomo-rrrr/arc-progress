@@ -19,7 +19,7 @@
 $('#progress').arcProgress({
     percent: 54, //0-100得分
     radius:50, //半径px
-    strokeWidth:3, //组的粗细
+    strokeWidth:3, //线的粗细
     stroke:'green', //线的颜色
     mode:'svg' //可选择svg或canvas
 });
