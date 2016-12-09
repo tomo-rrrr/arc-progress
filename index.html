@@ -9,6 +9,7 @@
         width: 100px;
         height: 100px;
         position: relative;
+        overflow: hidden;
     }
     .box{
         padding: 10px;
@@ -39,7 +40,7 @@ $('.progress').each(function(){
     var percent = my.data('no');
     my.arcProgress({
         percent: percent,
-        radius:50,
+        radius:30,
         strokeWidth:3,
         stroke:'green',
         mode:'svg'

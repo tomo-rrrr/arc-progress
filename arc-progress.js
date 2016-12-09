@@ -64,7 +64,7 @@
             }
 
             path.setAttribute('d', arr.join(' '));
-            var svg = '<svg width="100px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg">';
+            var svg = template('<svg width="{size}px" height="{size}px" version="1.1" xmlns="http://www.w3.org/2000/svg">', o);
             return $(svg + path.outerHTML + '</svg>');
         }
 
