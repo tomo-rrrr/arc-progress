@@ -37,11 +37,10 @@
 
         function drawVml(o) {
             o.d = o.radius * 2 - o.strokeWidth * 2;
-            o.angle = o.no / 100 * 360;
+            o.angle = o.percent / 100 * 360;
 
             var style = ' style="top:{strokeWidth}px;left:{strokeWidth}px;z-index:2; width:{d}px; height:{d}px;" ';
-            var property = 'filled="false" StrokeWeight="{strokeWidth}" StrokeColor="{stroke}" StartAngle="0" EndAngle="{angle}"';
-
+            var property = ' filled="false" StrokeWeight="{strokeWidth}" StrokeColor="{stroke}" StartAngle="0" EndAngle="{angle}"';
             var arcTpl = '<v:arc' + style + property + '/>';
             return $(template(arcTpl, o));
         }
